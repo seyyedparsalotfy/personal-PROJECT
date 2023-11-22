@@ -8,6 +8,7 @@
     top:65%;
     background-color: rgb(60, 85, 110);
     border-radius: 1em 1em 1em 1em ;
+    color: black;
   }
 }
 /*//////////////////////////////////////////////////*/
@@ -18,7 +19,7 @@
     font-size: 16px;
     position: absolute;
     top:70%;
-    
+    color: black;
     background-color: rgb(60, 85, 110);
     border-radius: 1em 1em 1em 1em ;
     
@@ -33,6 +34,9 @@
     top:560px;
     background-color: rgb(60, 85, 110);
     border-radius: 1em 1em 1em 1em ;
+    color: black;
+
+
   }
 }
 
@@ -55,6 +59,7 @@
   .M {
     font-family: 'Times New Roman', serif;
     font-size: 18px;
+    color: black;
   }
 }
 
@@ -63,6 +68,7 @@
   .M {
     font-family: 'Times New Roman', serif;
     font-size: 30px;
+    color: black;
   }
 }
 
@@ -72,6 +78,7 @@
     font-size: 30px;
     position: absolute;
     left: 60px;
+    color: black;
   }
 }
 
@@ -80,7 +87,7 @@
     font-family: 'Times New Roman', serif;
     font-size: 24px;
     position: absolute;
-    
+    color: black;
     
   }
 }
@@ -91,7 +98,7 @@
     font-family: 'Times New Roman', serif;
     font-size: 60px;
     position: absolute;
-    
+    color: black;
     
   }
 }
