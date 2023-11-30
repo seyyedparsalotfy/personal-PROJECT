@@ -63,14 +63,13 @@
   }
 }
 
-@media only screen and (min-width: 321px) and (max-width: 425px) {
+@media only screen and (min-width: 321px) and (max-width:425px) {
   .M {
     font-family: 'Times New Roman', serif;
     font-size: 18px;
     color: black;
   }
-}
-
+ } 
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .M {
     font-family: 'Times New Roman', serif;
