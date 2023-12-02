@@ -5,7 +5,12 @@
     position: absolute;
     top: 65%;
     background-color: #3c556e;
-    border-radius: 1em 1em 1em 1em;
+    border-radius: 1em;
+    color: #000;
+  }
+  .M {
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
     color: #000;
   }
 }
@@ -17,7 +22,7 @@
     top: 70%;
     color: #000;
     background-color: #3c556e;
-    border-radius: 1em 1em 1em 1em;
+    border-radius: 1em;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1441px) {
@@ -27,14 +32,7 @@
     position: absolute;
     top: 560px;
     background-color: #3c556e;
-    border-radius: 1em 1em 1em 1em;
-    color: #000;
-  }
-}
-@media only screen and (min-width: 100px) and (max-width: 320px) {
-  .M {
-    font-family: "Times New Roman", serif;
-    font-size: 18px;
+    border-radius: 1em;
     color: #000;
   }
 }
