@@ -1,7 +1,7 @@
 #myAudio {
   display: none;
 }
-name{
+name {
   text-align: center;
 }
 img:hover {
@@ -10,120 +10,105 @@ img:hover {
 
 img {
   transition: transform 0.3s;
-
-
 }
 
-
-
-@media  only screen  and (min-width: 100px) and (max-width : 321px) {
+@media only screen and (min-width: 100px) and (max-width: 321px) {
   .photo {
-    width :100% ;
-max-width : 70% ;
-display: block;
+    width: 100%;
+    max-width: 70%;
+    display: block;
     float: right;
-    border-radius: 1em 1em 1em 1em ;
-    box-shadow: 10px 10px 5px black ;
+    border-radius: 1em 1em 1em 1em;
+    box-shadow: 10px 10px 5px black;
   }
 }
-@media  only screen  and (min-width: 321px) and (max-width : 426px) {
+@media only screen and (min-width: 321px) and (max-width: 426px) {
   .photo {
-    width :100% ;
-max-width : 70% ;
-display: block;
+    width: 100%;
+    max-width: 70%;
+    display: block;
     float: right;
-    border-radius: 1em 1em 1em 1em ;
-    box-shadow: 10px 10px 5px black ;
+    border-radius: 1em 1em 1em 1em;
+    box-shadow: 10px 10px 5px black;
   }
 }
 
-@media  only screen  and (min-width: 426px)  and (max-width : 768px) {
+@media only screen and (min-width: 426px) and (max-width: 768px) {
   .photo {
-    
-      width :400px ;
-      max-width:500px;
-      display: block;
-      border-radius: 1em 1em 1em 1em ;
-      float: right;
-      box-shadow: 10px 10px 5px black ;
-  }
-
-}
-
-
-@media  only screen  and (min-width: 769px)  and (max-width : 1024px) {
-  .photo {
-width : 500px ;
-height: 760px;
+    width: 400px;
+    max-width: 500px;
+    display: block;
+    border-radius: 1em 1em 1em 1em;
     float: right;
-    border-radius: 1em 1em 1em 1em ;
-    box-shadow: 10px 10px 5px black ;
-  }
-}
-      
-@media  only screen  and (min-width: 1025px)  and (max-width : 1365px) {
-  .photo {
-width : 450px ;
-height: 750px;
-    float: right;
-    border-radius: 2em 2em 2em 2em ;
-    box-shadow: 10px 10px 5px black ;
-
-  }
-}
-     
-@media  only screen  and (min-width: 1025px)  and (max-width : 1365px) {
-  .photo {
-width : 450px ;
-height: 650px;
-    float: right;
-    border-radius: 2em 2em 2em 2em ;
-    box-shadow: 10px 10px 5px black ;
-  }
-}
-      
-@media  only screen  and (min-width: 1366px)  and (max-width : 1367px) {
-  .photo {
-width : 350px ;
-height: 558px;
- float: right;
- border-radius: 2em 2em 2em 2em ;
- box-shadow: 10px 10px 5px black ;
+    box-shadow: 10px 10px 5px black;
   }
 }
 
-    
-@media  only screen  and (min-width: 1368px)  and (max-width : 1440px) {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
   .photo {
-width : 450px ;
-height: 750px;
+    width: 500px;
+    height: 760px;
     float: right;
-    border-radius: 2em 2em 2em 2em ;
-    box-shadow: 10px 10px 5px black ;
+    border-radius: 1em 1em 1em 1em;
+    box-shadow: 10px 10px 5px black;
   }
 }
- 
-@media  only screen  and (min-width: 1440px)  and (max-width : 2560px) {
+
+@media only screen and (min-width: 1025px) and (max-width: 1365px) {
   .photo {
-width : 450px ;
-height: 750px;
+    width: 450px;
+    height: 750px;
     float: right;
-    border-radius: 2em 2em 2em 2em ;
-    box-shadow: 10px 10px 5px black ;
+    border-radius: 2em 2em 2em 2em;
+    box-shadow: 10px 10px 5px black;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1365px) {
+  .photo {
+    width: 450px;
+    height: 650px;
+    float: right;
+    border-radius: 2em 2em 2em 2em;
+    box-shadow: 10px 10px 5px black;
+  }
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1367px) {
+  .photo {
+    width: 350px;
+    height: 558px;
+    float: right;
+    border-radius: 2em 2em 2em 2em;
+    box-shadow: 10px 10px 5px black;
+  }
+}
+
+@media only screen and (min-width: 1368px) and (max-width: 1440px) {
+  .photo {
+    width: 450px;
+    height: 750px;
+    float: right;
+    border-radius: 2em 2em 2em 2em;
+    box-shadow: 10px 10px 5px black;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 2560px) {
+  .photo {
+    width: 450px;
+    height: 750px;
+    float: right;
+    border-radius: 2em 2em 2em 2em;
+    box-shadow: 10px 10px 5px black;
   }
 }
 body {
-   
-  background-image: url('PARSA00.jpg');
-  ;
-  background-repeat: no-repeat;
+  background-color: black;
   background-attachment: fixed;
   background-size: cover;
   color: black;
-  
- 
 }
-
-
-
-
+:root {
+  background-color: black;
+}

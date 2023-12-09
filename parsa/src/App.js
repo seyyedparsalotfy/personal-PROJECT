@@ -2,6 +2,7 @@ import { TypeAnimation } from "react-type-animation";
 import React from "react";
 import "./App.css";
 import "animate.css";
+import Starfield from "react-starfield";
 
 var audio = document.getElementById("myAudio");
 var clickCount = 0;
@@ -61,6 +62,19 @@ export const ExampleComponent = () => {
           repeat={Infinity}
         />
       </div>
+    </div>
+  );
+};
+
+export const Background = () => {
+  return (
+    <div>
+      <Starfield
+        starCount={5000}
+        starColor={[255, 255, 255]}
+        speedFactor={0.5}
+        backgroundColor="black"
+      />
     </div>
   );
 };
