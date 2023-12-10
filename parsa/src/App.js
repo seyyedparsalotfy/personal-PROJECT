@@ -70,9 +70,9 @@ export const Background = () => {
   return (
     <div>
       <Starfield
-        starCount={5000}
+        starCount={30000}
         starColor={[255, 255, 255]}
-        speedFactor={0.5}
+        speedFactor={0.9}
         backgroundColor="black"
       />
     </div>
